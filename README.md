@@ -30,11 +30,14 @@ python train_net.py --config configs/coco_ssod.yaml --num-gpus=4
 If you find this project useful, please consider citing our work.
 
 ```bibtex
-@article{modet,
-  title={Foreground-Generalized RPN and Language-Guided Visual Augmentation for Open-Vocabulary Object Detection},
-  author={},
-  journal={ACM MM},
-  year={2026}
+@inproceedings{liang2026fore,
+    title = {Foreground-Generalized RPN and Language-Guided Visual Augmentation for Open-Vocabulary Object Detection},
+    author={Liang, Qiuyu and Zhang, Yongqiang},
+    booktitle={Proceedings of the 34th ACM International Conference on Multimedia},
+    pages = {5866–5874},
+    numpages = {9},
+    year={2026},
+    doi = {10.1145/3767308.3834985}
 }
 ```
 
